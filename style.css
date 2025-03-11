@@ -1,0 +1,78 @@
+/* Mouse hover effect for navigation links */
+header nav ul li a:hover {
+    background-color: #ff5733; /* Change background color on hover */
+    color: darkblue; /* Change text color on hover */
+    border-radius: 30px; /* Optional: Adds rounded corners */
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px; /* Increased margin for better spacing */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s; /* Added transition for hover effect */
+}
+
+nav ul li a:hover {
+    color: var(--secondary-color); /* Change color on hover */
+}
+footer {
+    background: var(--footer-background);
+    color: var(--footer-text-color);
+    text-align: center;
+    padding: 15px 0; /* Increased padding for better spacing */
+}
+input, textarea {
+        width: 90%; /* Full width for input fields on smaller screens */
+    }
+
+    header {
+    background: var(--primary-color);
+    color: white;
+    padding: 15px 0; /* Increased padding for better spacing */
+    text-align: center;
+}
+
+header .logo {
+    font-size: 24px;
+    color: #0f20bb;
+    font-size: 28px; /* Increased font size */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+body {
+    font-family: sans-serif; /* Updated font */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: var(#212529);
+    background-color: #8979e5d4;
+}
+.about h2 {
+    font-family: 'sans-serif;'; /* Use a monospace font */
+    font-size: 2em; /* Medium font size */
+    font-weight: lighter; /* Lighter font weight */
+    font-style: normal; /* Normal font style */
+    margin: 10px 0;
+    color: #666;
+}
+
+.about p {
+    text-align: center;
+    font-size: larger;
+    margin: 0 auto;
+    max-width: 600px;
+}
+footer {
+    background: var(--footer-background);
+    color: var(--footer-text-color);
+    text-align: center;
+    padding: 15px 0; /* Increased padding for better spacing */
+}

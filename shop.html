@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Harry Stationery - Your one-stop shop for high-quality stationery, notebooks, pens, art supplies, and more. Buy the best stationery online.">
+    <meta name="keywords" content="stationery, notebooks, pens, art supplies, craft supplies, journals, school supplies, office stationery">
+    <meta name="author" content="Harry Stationery">
+    <meta name="robots" content="index, follow">
+
+     <meta property="og:title" content="Harry Stationery - Quality Stationery for All Needs">
+    <meta property="og:description" content="Explore our range of beautiful and functional stationery items, including notebooks, pens, art and craft supplies.">
+    <meta property="og:url" content="http://www.harrystationery.com">
+    <meta property="og:type" content="website">
+
+    <title>Harry Stationery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="harry stationary.html">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+<style type="text/css">
+    body {
+    font-family: sans-serif; /* Updated font */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: var(#212529);
+    background-color: #8979e5d4;
+}
+
+header {
+    background: var(--primary-color);
+    color: white;
+    padding: 15px 0; /* Increased padding for better spacing */
+    text-align: center;
+}
+
+header .logo {
+    font-size: 24px;
+    color: #0f20bb;
+    font-size: 28px; /* Increased font size */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+/* Mouse hover effect for navigation links */
+header nav ul li a:hover {
+    background-color: #ff5733; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+    border-radius: 30px; /* Optional: Adds rounded corners */
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px; /* Increased margin for better spacing */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s; /* Added transition for hover effect */
+}
+
+nav ul li a:hover {
+    color: var(--secondary-color); /* Change color on hover */
+}
+
+.hero {
+    background-image: url("background1.jpeg");
+    font-family: 'Arial', sans-serif; /* Use a sans-serif font */
+    font-size: 25px; /* Large font size */
+    font-weight: bold; /* Bold font weight */
+    font-style: italic; /* Italic font style */
+    color: white; /* Text color */
+    background-color: #ebc44d; /* Background color */
+    padding: 20px; /* Padding around the text */
+    text-align: center; /* Center the text */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hero h1 {
+    font-family: 'sans-serif;'; /* Use a serif font */
+    font-size: 3em; /* Increased font size of the heading */
+    font-weight: normal; /* Normal font weight */
+    font-style: oblique; /* Oblique font style */
+    margin: 20px 0;
+    color: #043091;
+}
+
+.about h2 {
+    font-family: 'sans-serif;'; /* Use a monospace font */
+    font-size: 2em; /* Medium font size */
+    font-weight: lighter; /* Lighter font weight */
+    font-style: normal; /* Normal font style */
+    margin: 10px 0;
+    color: #666;
+}
+
+.about p {
+    text-align: center;
+    font-size: larger;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.btn {
+    background: var(--secondary-color); /* Original background */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s; /* Added transition for hover effect */
+}
+
+.btn:hover {
+    background: #e68a00; /* Darker shade on hover */
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+/* Add colorful button styles */
+button {
+    background: linear-gradient(45deg, #FF5733, #FFC300); /* Colorful gradient background */
+    color: white;
+    border: none; /* Remove border */
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background: linear-gradient(45deg, #FFC300, #FF5733); /* Reverse gradient on hover */
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.products, .about, .contact {
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 15px; /* Increased padding for better spacing */
+    width: 30%;
+    text-align: center;
+    margin: 10px; /* Added margin for spacing between products */
+    transition: transform 0.3s; /* Added transition for hover effect */
+}
+
+.product:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* Added border radius for images */
+}
+
+footer {
+    background: var(--footer-background);
+    color: var(--footer-text-color);
+    text-align: center;
+    padding: 15px 0; /* Increased padding for better spacing */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .product {
+        width: 100%; /* Full width on smaller screens */
+        margin: 10px 0; /* Adjust margin for better spacing */
+    }
+
+    nav ul li {
+        display: block; /* Stack navigation items vertically */
+        margin: 10px 0; /* Adjust margin for better spacing */
+    }
+
+    .hero h1 {
+        font-size: 2.5em; /* Adjust font size for smaller screens */
+    }
+
+    input, textarea {
+        width: 90%; /* Full width for input fields on smaller screens */
+    }
+}
+
+    </style>
+    
+    
+</head>
+<body>
+	<header>
+       <a href="harry stationary.html"> <div class="logo">Harry Stationery</div></a>
+    <nav>
+        <ul class="nav">
+            <li><a href="harry stationary.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<section id="shop" class="products">
+    <h2>Shop</h2>
+    <div class="product-list">
+        <div class="product">
+            <img src="notebook.jpg" alt="Notebook">
+            <h3>Beautiful Notebook</h3>
+            <p>599.00</p>
+           
+        </div>
+        <div class="product">
+            <img src="\pens.jpg" alt="Pen">
+            <h3>Nataraj Pens</h3>
+            <p>200.00</p>
+           
+        </div>
+        <div class="product">
+            <img src="compassbox.jpg" alt="compass box of camel">
+            <h3>Camel Compass Box</h3>
+            <p>190.00</p>
+           
+        </div>
+
+        <div class="product">
+            <img src="art supplies.webp" alt="art supplies">
+            <h3>art supplies</h3>
+            <p>590.00</p>
+            
+        </div>
+
+        <div class="product">
+            <img src="Acrylic markers.webp" alt="Acrylic markers">
+            <h3>Acrylic markers and Box</h3>
+            <p>290.00</p>
+            
+        </div>
+
+        <div class="product">
+            <img src="art supplies.webp" alt="art supplies">
+            <h3>art supplies</h3>
+            <p>590.00</p>
+            
+        </div>
+
+        <div class="product">
+            <img src="craft supplies.webp" alt="art supplies">
+            <h3>All craft supplies</h3>
+            <p>990.00</p>
+         
+        </div>
+        
+       <div class="product">
+            <img src="notepads.webp" alt="notepads">
+            <h3>notepads</h3>
+            <p>490.00</p>
+            
+        </div>
+
+        <div class="product">
+            <img src="journal.webp" alt="journal">
+            <h3>journals</h3>
+            <p>390.00</p>
+          
+        </div>
+        
+    </div>
+</section>
+
+
+</body>
+</html>
